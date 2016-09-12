@@ -1,0 +1,22 @@
+{
+  "name": "plants-api",
+  "version": "1.0.0",
+  "description": "A public API for plant data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "plants",
+    "flowers",
+    "trees"
+  ],
+  "author": "Adam Lichty",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0"
+  }
+}
